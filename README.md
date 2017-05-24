@@ -83,5 +83,5 @@ deny from all
 ### Use ssh key per git repo
 
 ```bash
-$ssh-agent bash -c 'ssh-add /home/me/my_private_key; git clone git@bitbucket.org:uname/test-git-repo.git'
+$>ssh-agent bash -c 'ssh-add /home/me/my_private_key; git clone git@bitbucket.org:uname/test-git-repo.git'
 ```
