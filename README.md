@@ -85,3 +85,13 @@ deny from all
 ```bash
 $>ssh-agent bash -c 'ssh-add /home/me/my_private_key; git clone git@bitbucket.org:uname/test-git-repo.git'
 ```
+
+### Install Apache2
+
+```bash
+httpd.exe -k install
+httpd.exe -k uninstall
+httpd.exe -k start
+httpd.exe -k stop
+httpd.exe -k restart
+```
