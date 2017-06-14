@@ -95,3 +95,10 @@ httpd.exe -k start
 httpd.exe -k stop
 httpd.exe -k restart
 ```
+### Enable PHP5
+```bash
+LoadModule php7_module C:/php/php7apache2_4.dll
+DirectoryIndex index.php index.html
+AddHandler application/x-httpd-php .php
+PHPIniDir C:/php
+```
