@@ -117,5 +117,5 @@ PHPIniDir C:/php
 ### Install php for Yii2
 
 ```bash
-apt install php-intl php-mbstring php-xml php-sqlite3 php-mysql php-pgsql php-memcache php-apcu php-gd php-imagick
+apt install php-intl php-mbstring php-xml php-sqlite3 php-mysql php-pgsql php-memcache php-apcu php-gd php-imagick php-redis
 ```
