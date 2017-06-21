@@ -107,10 +107,15 @@ httpd.exe -k start
 httpd.exe -k stop
 httpd.exe -k restart
 ```
-### Enable PHP5
+### Enable PHP
 ```bash
 LoadModule php7_module C:/php/php7apache2_4.dll
 DirectoryIndex index.php index.html
 AddHandler application/x-httpd-php .php
 PHPIniDir C:/php
+```
+### Install php for Yii2
+
+```bash
+apt install php-intl php-mbstring php-xml php-sqlite3 php-mysql php-pgsql php-memcache php-apcu php-gd php-imagick
 ```
