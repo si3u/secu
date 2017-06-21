@@ -119,3 +119,15 @@ PHPIniDir C:/php
 ```bash
 apt install php-intl php-mbstring php-xml php-sqlite3 php-mysql php-pgsql php-memcache php-apcu php-gd php-imagick php-redis
 ```
+### Install Redis Server
+
+```bash
+apt-get install redis-server
+apt-get install php-redis
+vim /etc/redis/redis.conf
+    maxmemory 128mb
+    maxmemory-policy allkeys-lru
+systemctl restart redis-server.service
+systemctl enable redis-server.service
+redis-cli
+```
