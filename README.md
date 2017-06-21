@@ -16,6 +16,7 @@ $>FLUSH PRIVILEGES;
 
 ### Remote MySQL
 ```bash
+CREATE USER 'root'@'%' IDENTIFIED BY '»»»MrSi3u@#$«««';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 FLUSH PRIVILEGES;
 ```
