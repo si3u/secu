@@ -20,6 +20,10 @@ CREATE USER 'root'@'%' IDENTIFIED BY '»»»MrSi3u@#$«««';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
+### Import one database from all database backup
+```bash
+mysql -u root -p --one-database destdbname < alldatabases.sql
+```
 
 ### Scan Shell
 
