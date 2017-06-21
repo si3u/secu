@@ -13,6 +13,13 @@ $>UPDATE mysql.user SET authentication_string = PASSWORD('MrSi3u@#!'), password_
 $>SET PASSWORD FOR 'root'@'localhost' = PASSWORD('MrSi3u@#!');
 $>FLUSH PRIVILEGES;
 ```
+
+### Remote MySQL
+```bash
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+FLUSH PRIVILEGES;
+```
+
 ### Scan Shell
 
 ```
