@@ -91,6 +91,16 @@ Deny from all
 deny from all
 </Files>
 ```
+* Apache 2.4
+
+```.htaccess
+<IfModule mod_php5.c>
+  php_flag engine off
+</IfModule>
+<Files *.php>
+Require all denied
+</Files>
+```
 
 ### Use ssh key per git repo
 
