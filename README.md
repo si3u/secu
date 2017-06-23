@@ -137,4 +137,5 @@ redis-cli
 .\mysqld.exe --initialize-insecure
 .\mysqld.exe --install
 sc MySQL start
+.\mysql_secure_installation.exe
 ```
