@@ -131,3 +131,10 @@ systemctl restart redis-server.service
 systemctl enable redis-server.service
 redis-cli
 ```
+### Install MySQL
+
+```bash
+.\mysqld.exe --initialize-insecure
+.\mysqld.exe --install
+sc MySQL start
+```
