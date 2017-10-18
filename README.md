@@ -149,3 +149,9 @@ redis-cli
 sc MySQL start
 .\mysql_secure_installation.exe
 ```
+
+### Tips MySQL
+
+```
+SET SQL_MODE='ALLOW_INVALID_DATES';
+```
