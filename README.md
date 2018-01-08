@@ -2,6 +2,14 @@
 - @author: NguyenTuanSieu
 - @email: dev.phpjs@gmail.com
 
+### Download Google Drive via command line
+
+```
+wget --save-cookies cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=GOOGLE_DRIVE_ID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/Code: \1\n/p'
+
+wget --load-cookies cookies.txt 'https://docs.google.com/uc?export=download&confirm=CONFIRM_CODE_ABOVE&id=GOOGLE_DRIVE_ID' -o 'FILENAME'
+```
+
 ### Reset password root
 ```
 $>mysqld_safe --skip-grant-tables
